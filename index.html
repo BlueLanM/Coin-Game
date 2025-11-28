@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>幸运硬币</title>
+    <link rel="icon" href="./favicon.ico" />
+    <script src="./public/phaser.min.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <div id="start-menu" style="display: none">
+      <h1 class="menu-title">幸运硬币</h1>
+      <div id="menu-buttons"></div>
+    </div>
+    <div id="loading-container" style="display: none">
+      <h2 class="loading-title">加载中...</h2>
+      <div class="loading-bar-container">
+        <div class="loading-bar" id="loading-bar"></div>
+      </div>
+      <div class="loading-text" id="loading-text">0%</div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
