@@ -10,12 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/coderxiao24/coin-game.git"
   },
-  "author": "xiaokaixuan",
+  "author": "LanM",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coderxiao24/coin-game/issues"
+    "url": "https://github.com/BlueLanM/coin-game/issues"
   },
-  "homepage": "https://github.com/coderxiao24/coin-game#readme",
+  "homepage": "https://github.com/BlueLanM/coin-game#readme",
   "keywords": [
     "game",
     "h5",
